@@ -1,0 +1,74 @@
+{
+	"aside": {
+		"title": "On this page.....",
+		"items": [
+			{
+				"url": "#",
+				"text": "You can find information about various forest reserves and national parks across Sri Lanka."
+			},
+			{
+				"url": "#",
+				"text": "Detailed maps for an easier time navigating..."
+			},
+		
+			{
+				"url": "#",
+				"text": "A table with information of the parks and forest reserves..."
+			}
+		]
+	},
+    "imagesWithContent": [
+        {
+            "meta": {
+                "title": "MINNERIYA NATIONAL PARK",
+                "description": "Minneriya National Park is home to the world’s largest known gathering of Asian elephants. During this period, herds of up to 350 elephants are seen at the 8,890-hectare park within a few square kilometers of the Minneriya Tank. According to some reports, there are as many as 700 elephants.",
+                "subTitle": "Image from: minneriyasafari.com",
+                "images": [
+                    "./pictures/minneriya.jpg",
+                    "./pictures/minneriya1.jpg"
+                ],
+                "listContent": {
+                    "title": "Things to know before travelling...",
+                    "items": [
+                        "Where is Minneriya park?: North Central of Sri lanka",
+                        "Nearest Town: Habarana",
+                        "When to visit?:  Throughout the year, but best in August to September",
+                        "Park opening hours: 6 Am to 6.30 Pm",
+                        "What i should bring?: A Hat or cap / Sun protection cream / Dust musk / Water / Camera"
+                    ],
+                    "itemLiks": [
+                        {
+                            "link": "https://minneriyasafari.com/about/",
+                            "name": "Click here for more info"
+                        }
+                    ]
+                },
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.837869019712!2d80.84209537568586!3d8.01564960402601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb6009a20be05d%3A0xa4d046f2f06b05f5!2sMinneriya%20National%20Park!5e0!3m2!1sen!2slk!4v1705210954105!5m2!1sen!2slk"
+            }
+        },
+        {
+            "meta": {
+                "title": "SINHARAJA FOREST RESERVE",
+                "description": "Located in south-west Sri Lanka, Sinharaja is the country's last viable area of primary tropical rainforest. More than 60% of the trees are endemic and many of them are considered rare. There is much endemic wildlife, especially birds, but the reserve is also home to over 50% of Sri Lanka's endemic species of mammals and butterflies, as well as many kinds of insects, reptiles and rare amphibians.",
+                "subTitle": "Image Author: Ko Hon Chiu Vincent (c)",
+                "images": [
+                    "./pictures/sinharaja.jpg",
+                    "./pictures/sinharaja1.jpg"
+                ],
+                "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15859.596626391387!2d80.4600266!3d6.4069908!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1705210859433!5m2!1sen!2slk"
+            }
+        },
+        {
+            "meta": {
+                "title": "HORTON PLAINS NATIONAL PARK",
+                "description": "Horton Plains is located on the southern plateau of the central highlands of Sri Lanka. The peaks of Kirigalpoththa (2,389 m (7,838 ft)) and Thotupola Kanda (2,357 m (7,733 ft)), the second and the third highest of Sri Lanka, are situated to the west and north respectively.",
+                "subTitle": "Image from: tripadvisor.com",
+                "images": [
+                    "./pictures/hortonplains.jpg",
+                    "./pictures/hortonplains1.jpg"
+                ],
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6739945881254!2d80.79975837568095!3d6.809451319772904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705210925514!5m2!1sen!2slk"
+            }
+        }
+    ]
+}

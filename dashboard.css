@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+/* Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo */
+
+.logo{
+
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    ;
+
+}
+
+h1,h2 {
+    
+    padding-top: 30px;
+    color: lemonchiffon;
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px black;
+    overflow-x: hidden;
+    
+
+}
+
+table th{
+    background-color: black;
+    color:#F9F9F9;
+    padding: 4px 32px 4px 8px;
+    text-align: left;
+
+}
+
+table tr:nth-child(odd) td{
+    background-color: #e7edf0;
+    font-size: 100%;
+
+
+}
+
+table tr:nth-child(even) td{
+  background-color: #e7edf0;
+  font-size: 100%;
+
+
+}
+
+
+table td{
+    border: 1px solid #e3e3e3;
+    padding: 4px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #111;
+  }
+  footer .content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content p,a{
+    color: #fff;
+  }
+  footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color: lemonchiffon;
+    margin-bottom: 16px;
+  
+  }
+  footer .content p{
+    text-align: justify;
+  }
+  
+  
+  footer .bottom{
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: lemonchiffon;
+  }
+  footer a{
+    transition: all 0.3s ease;
+  }
+  footer a:hover{
+    color: grey;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins',sans-serif;
+  }
+  body{
+      display: flex;
+      justify-content: center;
+      background: url(./pictures/6976884-black-and-white-nature.jpg);
+      background-size: cover;
+      
+      
+      
+      min-height: 100vh;
+      
+  }

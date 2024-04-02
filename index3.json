@@ -1,0 +1,105 @@
+{
+	"asides": [
+		{
+			"title": "INTRODUCTION",
+			"items": [
+				{
+					"url": "#",
+					"text": "The wildlife of Sri Lanka includes its flora and fauna and their natural habitats."
+				},
+				{
+					"url": "#",
+					"text": "Sri Lanka has one of the highest rates of biological endemism (16% of the fauna and 23% of flowering plants are endemic)."
+				}
+				
+			]
+		},
+		{
+			"title": "Vertebrates",
+			"items": [
+				{
+					"url": "#",
+					"text": "Mammals- Sri Lanka is home to roughly 123 species of mammals, 41 of which are threatened (9 critically)."
+				},
+				{
+					"url": "#",
+					"text": "Reptiles- Sri Lanka currently contains 185 species of reptiles, of which 60 are threatened and 115 are endemic."
+				},
+				{
+					"url": "#",
+					"text": "Birds- Sri Lanka is home to 227 species of birds (though some past estimates put it as high as 486),"
+				}
+			]
+		}
+	],
+	"blogPosts": [
+		{
+			"meta": {
+				"title": "Ecological zones",
+				"description": "The mountains and the southwestern part of the country, known as the 'wet zone', receive ample rainfall (an annual average of 2500 millimeters). Most of the southeast, east, and northern parts of the country comprise the 'dry zone', which receives between 1200 and 1900 mm of rain annually.",
+				"tagLine": "European Soil Data Centre"
+			},
+			"post": {
+				"image": "./pictures/ecologymap.jpg",
+				"imageAlt": "aa",
+				"moreLink": "https://www.worldatlas.com/articles/ecological-regions-of-sri-lanka.html",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				"title": "FAUNAL DIVERSITY",
+				"description": "Sri Lanka is a tropical island with its diverse collection of fauna and flora. Without a doubt, we are fortunate to be bestowed with distinct native flowers of Sri Lanka that give our country a unique identity.",
+				"tagLine": "Photo by: Nguyễn Tấn Phát"
+			},
+			"post": {
+				"image": "./pictures/bluewaterlily.jfif",
+				"imageAlt": "aa",
+				"excerpt": "Nymphaea nouchali, often known by its synonym Nymphaea stellata, or by common names blue lotus, star lotus, red water lily, dwarf aquarium lily, blue water lily, blue star water lily or manel flower, is a water lily of genus Nymphaea. It is native to southern and eastern parts of Asia, and is the national flower of Bangladesh and Sri Lanka.",
+				"moreLink": "https://en.wikipedia.org/wiki/Nymphaea_nouchali",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				"title": "CRUSTACEANS",
+				"description": "FRESH WATER CRAB",
+				"tagLine": "Image from: pexels.com",
+				"list": [
+					"Phylum: Arthropoda",
+					"Subphylum: Crustacea",
+					"Class: Malacostraca",
+					"Order: Decapoda"
+				],
+				"listOlVisible": true
+			},
+			"post": {
+				"image": "./pictures/freshwatercrab.jpg",
+				"imageAlt": "aaa",
+				"excerpt": "Sri Lanka is an island close to the southern end of India with a tropical environment. The invertebrate fauna is as large as it is common to other regions of the world.There are about two million species of arthropods found in the world, and still it is counting with many new species still being discovered.It is very complicated and difficult to summarize the exact number of species found within a certain region.",
+				"moreLink": "https://en.wikipedia.org/wiki/List_of_freshwater_crabs_of_Sri_Lanka",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				"title": "FISH",
+				"description": "Sri Lanka contains 93 species of freshwater fish, of which 50 are endemic. 28 species are categorized as threatened by the IUCN.There are 8 species of brackish water fish that also come to freshwater, and 24 introduced exotic fish species.",
+				"tagLine": "Image by: Sri Lanka Export Development Board",
+				"list": [
+					"Freshwater eels",
+					"Carps and allies",
+					"River loaches",
+					"Catfishes"
+				],
+				"listUlVisible": true
+			},
+			"post": {
+				"image": "./pictures/fish.jpg",
+				"imageAlt": "aaa",
+				"moreLink": "https://en.wikipedia.org/wiki/List_of_freshwater_fish_of_Sri_Lanka",
+				"moreText": "Click here for more info"
+			}
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"asides": [
+		{
+			"title": "Strict Natural Reserve (SNR)",
+			"items": [
+				{
+					"url": "#",
+					"text": "Strict Natural Reserves have been declared under the provisions of Fauna & Flora Protection Ordinance. (Haggala, Yala and Ritigala)."
+				},
+				{
+					"url": "#",
+					"text": "As 1a of IUCN protected area category (Strict Nature Reserve), human visitation, use and impacts are strictly controlled and limited in these areas to ensure protection of the conservation values.."
+				}
+				
+			]
+		},
+		{
+			"title": "National Park",
+			"items": [
+				{
+					"url": "#",
+					"text": "Twenty Eight National Parks have scattered throughout the country by providing scientific, educational, recreational and aesthetic opportunities to visitors. These areas are declared under the provisions of Fauna and Flora Protection Ordinance."
+				},
+				{
+					"url": "#",
+					"text": "Visitors are allowed to enter the national park with permits in accordance with the conditions, issued by prescribed officer of Department of Wildlife Conservation on the payment of the prescribed fee."
+				}
+				
+			]
+		},
+        {
+			"title": "Nature Reserve",
+			"items": [
+				{
+					"url": "#",
+					"text": "Nine areas of state lands of the country have been declared as nature reserves under the provisions of the Fauna & Flora Protection Ordinance to preserve their natural conditions."
+				},
+				{
+					"url": "#",
+					"text": "Entering without a permit or carried out any harmful activity inside a nature reserve is prohibited."
+				}
+				
+			]
+		}
+	],
+    "images": [
+        "./pictures/conservation-galley1.jpg",
+        "./pictures/conservation-galley2.jpg",
+        "./pictures/conservation-galley3.jpg",
+        "./pictures/conservation-galley4.jpg",
+        "./pictures/conservation-galley5.jpg",
+        "./pictures/conservation-galley6.webp"
+    ],
+    "imagesWithContent": [
+        {
+            "meta": {
+                "title": "DEPARTMENT OF WILDLIFE CONSERVATION BATTARAMULLA",
+                "description": "The Department of Wildlife Conservation Conserves the Biodiversity of Sri Lanka. Every individual species is provided legal protection through the Fauna and Flora Protection Ordinance No 2 of 1937.",
+                "subTitle": "Image from: Dept. Wildlife Conservation",
+                "images": [
+                    "./pictures/conservation4.jpg",
+                    "./pictures/conservation1.jpg"
+                ],
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.945702755659!2d79.9172307756813!3d6.897098018707706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705211001187!5m2!1sen!2slk"
+            }
+        },
+        {
+            "meta": {
+                "title": "Wildlife and Nature Protection Society (WNPS)",
+                "description": "The history of wildlife protection in Sri Lanka is almost synonymous with that of the Wildlife and Nature Protection Society of Sri Lanka. At 128 years old, the WNPS is the third oldest Non-governmental Organization of its kind in the World and was responsible for the setting up of Wilpattu & Yala National Parks in Sri Lanka, and for the formation of the Department of Wildlife Conservation.",
+                "subTitle": "Image from: Wildlife Conservation Society",
+                "images": [
+                    "./pictures/conservation2.jpg",
+                    "./pictures/conservation3.jpg"
+                ],
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9269298838663!2d79.90989838376504!3d6.899342600908274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25b94478af573%3A0x69479366819b12a5!2sWildlife%20and%20Nature%20Protection%20Society%20(WNPS)%20-%20Head%20Office!5e0!3m2!1sen!2slk!4v1705211042868!5m2!1sen!2slk"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"heading": "Yala",
+	"description": "  Yala National Park is a huge area of forest, grassland and lagoons bordering the Indian Ocean, in southeast Sri Lanka. It’s home to wildlife such as leopards, elephants and crocodiles.",
+	"findOutMoreLink": "https://en.wikipedia.org/wiki/Yala_National_Park",
+	"findOutMoreButtonText": "Find out more",
+	"cards": [
+		{ "class": "card card1", "caption": "Sri Lankan Sloth Bear" },
+		{ "class": "card card2", "caption": "Fishing Cat" },
+		{ "class": "card card3", "caption": "Golden Palm Civet" },
+		{ "class": "card card4", "caption": "Sri Lankan Elephant" },
+		{ "class": "card card5", "caption": "Sri Lankan Leopard" },
+		{ "class": "card card6", "caption": "Mugger Crocodile" }
+	]
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon and title -->
+    <link rel="icon" type="icons/image/png" href="./icons/icon.png">
+    <title>Sri Lankan Wildlife - Intro</title>
+    <!-- links -->
+    <link rel="stylesheet" href="style5.css" />
+    <link rel="manifest" href="manifest.json">
+    <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+  ></script>
+  <script
+      src="https://kit.fontawesome.com/5981917ca3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <nav>
+          <img src="./icons/logo.png" class="logo"></a>
+          <ul>
+            <li><a href="index3.html">Home</a></li>
+            <li><a href="index5.html">Intro</a></li>
+            <li><a href="index6.html">Conservation</a></li>
+            <li><a href="index4.html">Leopard</a></li>
+            <li><a href="index2.html">Animals</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+          <a href="#" class="mobile">&#9776;</a>
+        </nav>
+      </header>
+     <!-- aside -->
+     <aside x-data="loadPageData()">
+      <div class="post" x-bind:title="aside.title">
+        <h1 x-text="aside.title"></h1>
+        <ul>
+          <template x-for="item in aside.items">
+            <li>
+              <br />
+              <a x-bind:href="item.url" x-text="item.text"></a>
+            </li>
+          </template>
+        </ul>
+      </div>
+    </aside>
+      <!-- main -->
+      <main x-data="loadPageData()">
+<!-- table -->
+        <table>
+            <tr>
+              <th>Park / Reserve</th>
+              <th>Specialty</th>
+              <th>Location</th>
+            </tr>
+            
+            <tr>
+              <td>Sinharaja</td>
+              <td>Rain forests</td>
+              <td>Dodammuluwa</td>
+            </tr>
+            
+            <tr>
+              <td>Horton Plains</td>
+              <td>Rolling hills</td>
+              <td>Dayagama</td>
+            </tr>
+           
+            <tr>
+                <td>Minneriya</td>
+                <td>Elephants</td>
+                <td>Minneriya</td>
+              </tr>
+              
+          </table>
+
+          <br><br>
+
+        <template x-for="(content, indexImage) in imagesWithContent" :key="indexImage">
+          <div class="blog-post">
+            <div class="meta">
+              <h1 x-text="content.meta.title"></h1>
+              <h3 x-text ="content.meta.description"> 
+                </h3>
+              <small x-text ="content.meta.subTitle"></small>
+              <i
+                :id="indexImage"
+                class="fas fa-pen"
+                onclick="edit(id)"
+                style="font-size: 20px"
+              ></i>
+            </div>
+            <div class="post">
+              <template x-for="(contentImage, contentImageIndex) in content.meta.images" :key="contentImageIndex">
+                <img :src="`${contentImage}`" alt="" srcset="">
+              </template>
+              <p class="excerpt">
+                <h2 x-text ="content.meta.listContent.title"></h2>
+                <br>
+                <template x-for="(item, itemIndex) in content.meta.listContent.items" :key="itemIndex">
+                  <li x-text="item"></li>
+                </template>
+                <br>
+                <template x-for="(item, itemIndex) in content.meta.listContent.itemLiks" :key="itemIndex">
+                  <a x-text="item.name" :href="`${item.link}`"><b></b></a>
+                </template>
+              </p>
+              <!-- map 1 -->
+              <p><iframe :src="`${content.meta.map}`" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+          </div>
+        </template>
+      </main>
+          <!-- footer -->
+      <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic">Wildlife Parks</div>
+              <div><a href="index7.html">Yala</a></div>
+            <div><a href="index8.html">Wilpattu</a></div>
+            </div>
+          </div>
+          <div class="middle box">
+            <div class="topic">Go back to the start</div>
+            <div><a href="index.html">Click here..</a></div>
+            
+         
+          </div>
+          
+          </div>
+        </div>
+      </footer>
+    </div>
+        <!-- js link -->
+    <script src="./javascript/app.js"></script>
+    <script src="./javascript/index5.js"></script>
+    <script>
+      function edit(key) {
+        const value = localStorage.getItem("index5");
+        let content = JSON.parse(value);
+
+        let editedText = prompt(
+          "Please Edit",
+          content.imagesWithContent[key].meta.description
+        );
+
+        if (editedText == null || editedText == "") {
+        } else {
+          content.imagesWithContent[key].meta.description = editedText;
+
+          localStorage.setItem("index5", JSON.stringify(content));
+
+          window.location.reload();
+        }
+      }
+    </script>
+  </body>
+</html>

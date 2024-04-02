@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon and title -->
+    <link rel="icon" type="icons/image/png" href="./icons/icon.png">
+    <title>Sri Lankan Wildlife</title>
+    <!-- links -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+   
+  </head>
+  <body>
+    
+    <!-- logo -->
+    <section class="banner">
+      <section class="navbar">
+      <img src="./icons/logo1.png" class="logo"></a>
+      </section>
+
+      <!-- main text -->
+
+      <section class="content">
+        <div x-data="introData">
+          <h1 x-text="intro"></h1>
+        </div>
+        
+        <br><br><br><br><br><br>
+        <!-- button -->
+      
+        <section>
+          <a href="index3.html">
+            <button type="button"><span></span>Home</button></a>
+          </section>
+
+        <div class="box">
+          <form id="newsletterForm" onsubmit="handleSubmit(event)">
+            <div class="form-box">
+              <input type="email" id="EmailAddress" name="EmailAddress" placeholder="Enter your e-mail">
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
+      
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>
+

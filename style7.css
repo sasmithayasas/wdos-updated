@@ -1,0 +1,322 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* base styling */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+  }
+
+/* body */
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./pictures/yalabg.jpg);
+  background-position: bottom;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+
+
+}
+/* map */
+
+iframe {
+  width:100%;
+  height:100%;
+}
+
+
+/* navigation */
+
+.navbar{
+  width: 75%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  text-transform:uppercase;
+  font-weight: bolder;
+
+}
+
+.navbar ul li::after{
+  content:"";
+  height: 3px;
+  width: 0;
+  background: seagreen;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+
+
+}
+
+/* Logo */
+.logo{
+
+width: 190px;
+cursor: pointer;
+
+}
+/* left side */
+.row{
+
+  display: flex;
+  height: 88%;
+  align-items: center;
+  font-size: larger;
+
+}
+/* right side */
+.column{
+  
+  margin-left: 5%;
+
+  flex-basis: 50%;
+
+}
+/* topic text and animation */
+h1{
+  color: transparent;
+  -webkit-text-stroke: 3px seagreen;
+  font-size: 100px;
+  position:relative
+}
+
+h1::before{
+
+  content: "Yala";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  color: seagreen;
+  border-right: 6px solid seagreen;
+  animation: slidein infinite 3s;;
+
+}
+
+@keyframes slidein {
+  to {
+      width: 100%;
+      filter: drop-shadow(0 0 25px lightseagreen);
+  }
+}
+
+
+
+
+p{
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 30px;
+
+
+}
+/* button */
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid seagreen;
+  background: transparent;
+  color: seagreen;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+}
+
+button:hover{
+  border: 2px solid aliceblue;
+  text-decoration: underline;
+
+
+}
+
+
+/* gallery */
+
+.card{
+
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+ 
+}
+
+.card1{
+  background-image: url(./pictures/srilankanslothbear.jpg);
+
+}
+.card2{
+  background-image: url(./pictures/fishingcat.jpg);
+  float: left;
+
+}
+
+.card3{
+  background-image: url(./pictures/golden-palm-civet.jpg);
+  float: left;
+
+}
+.card4{
+  background-image: url(./pictures/srilankanelephant.jpg);
+  float: left;
+
+}
+.card5{
+  background-image: url(./pictures/srilankanleopard.jpg);
+  float: left;
+
+}
+.card6{
+  background-image: url(./pictures/mugger-crocodile.jpg);
+  float: left;
+
+}
+
+.card:hover{
+  transform: translateY(-10px);
+
+}
+
+h4{
+  color: black;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p{
+
+  color: aliceblue;
+  text-shadow: 0 0 15px #999;
+  font-size: 20px;
+
+
+}
+/* footer */
+footer{
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  background: #111;
+}
+footer .content{
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: seagreen;
+  margin-bottom: 10px;
+
+}
+footer .content p{
+  text-align:justify;
+}
+
+footer a{
+  transition: all 0.7s ease;
+}
+footer a:hover{
+  color: seagreen;
+}
+/* responsive */
+@media (max-width: 800px) {
+  .card {
+      display: none;
+      
+  }
+  .navbar ul li {
+    display: none;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+
+}
+
+  h1{
+    font-size: 70px;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .video-size video
+{
+  width: 100;
+  padding-bottom:90%;
+  
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

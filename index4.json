@@ -1,0 +1,113 @@
+{
+	"aside": {
+		"title": "Trivia",
+		"items": [
+			{
+				"url": "#",
+				"text": "The dark spots on a leopard are called “rosettes” because their shape is similar to that of a rose. Baby leopards are born with barely visible spots, which emerge as they get older."
+			},
+			{
+				"url": "#",
+				"text": "Black coated (or melanistic) leopards, where the spots are indistinguishable, are commonly called black panthers. They are often mistakenly thought to be a different species. In other words, the panther is simply a black leopard."
+			},
+			{
+				"url": "#",
+				"text": "Sloth bears have shaggy, dusty-black coats; pale, short-haired muzzles; and long, curved claws which they use to excavate termites and ants."
+			},
+			{
+				"url": "#",
+				"text": "The leopard is a strong and agile climber who is often found resting on a tree branch during the day. After a kill, leopards will often stash their prey in a tree to prevent other animals such as hyenas and lions from stealing it, and they enjoy the meal for several days."
+			},
+			{
+				"url": "#",
+				"text": "Leopards are the smallest of the large cats, which includes lions, tigers and jaguars. Female leopards weigh 46 to 132 pounds and males can be up to 50% bigger, weighing 80 to 165 pounds. The average length of a leopard is between three and six feet.."
+			}
+		]
+	},
+	"blogPosts": [
+		{
+			"meta": {
+				"title": "WHERE LEOPARDS ARE FOUND IN SRI LANKA",
+				"description": "The Sri Lankan leopard is a leopard subspecies native to Sri Lanka. It was first described in 1956 by Sri Lankan zoologist Paules Edward Pieris Deraniyagala. Scientific name: Panthera pardus kotiya.  Conservation status: Endangered (Population decreasing)",
+				"tagLine": "Image: srilankanexpeditions.com"
+			},
+			"post": {
+				"image": "./pictures/srilankanleopard.jpg",
+				"imageAlt": "aa",
+				"excerpt": "While the Sri Lankan lion isn’t much more than a majestic myth adopted by the country’s ancient kings, another magnificent big cat prowls the island physically today – the leopard.",
+				"moreLink": "https://www.intrepidtravel.com/adventures/leopards-in-sri-lanka/",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				"title": "YALA NATIONAL PARK",
+				"description": "the most famous national park in Sri Lanka. Its fame is largely thanks to the fact that Yala has the most densely populated leopard presence on earth. Around 40 leopards are believed to roam the area, but sightings of these elusive creatures are still very rare.",
+				"tagLine": "Image: getyourguide.com"
+			},
+			"post": {
+				"image": "./pictures/yala.jpg",
+				"imageAlt": "aa",
+				"excerpt": "Covering around 950 square kilometres and forming a large chunk of the south-east coast by Tissamaharama, the park hosts the widest selection of wildlife to be found on the island.",
+				"moreLink": "https://www.intrepidtravel.com/adventures/leopards-in-sri-lanka/",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				"title": "WILPATTU NATIONAL PARK",
+				"description": "Wilpattu, Sri Lanka’s biggest national park, is located in the north-west lowlands and was once the most famous place for seeing leopards in the country. The area suffered badly during the civil war, and only re-opened in 2003 after being closed for 15 years.",
+				"tagLine": "Image: ceylonexpeditions.com"
+			},
+			"post": {
+				"image": "./pictures/wilpattu.jpg",
+				"imageAlt": "aaa",
+				"excerpt": "Leopard sightings have been more common recently and it’s slightly less busy than Yala. The same wildlife roam Wilpattu as at Yala and the animals are slightly less cautious of humans.",
+				"moreLink": "https://www.intrepidtravel.com/adventures/leopards-in-sri-lanka/",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				"title": "UDAWALAWE NATIONAL PARK",
+				"description": "Sloth bear and leopard sightings aren’t unheard of, but are pretty rare here. The park also contains around 180 different types of birds and if you’re a keen bird-watcher, November and December are the best months to visit.",
+				"tagLine": "Image: getyourguide.com"
+			},
+			"post": {
+				"image": "./pictures/udawalawe.jpg",
+				"imageAlt": "aaa",
+				"excerpt": "If you go to Sri Lanka expecting to see a leopard, you’ll most likely come away disappointed. But never fear, you’ll be more than satisfied for wildlife.",
+				"moreLink": "https://www.intrepidtravel.com/adventures/leopards-in-sri-lanka/",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				"title": "THREATS TO LEOPARDS",
+				"description": "The survival of the Sri Lankan leopard is primarily threatened by increasing habitat loss and fragmentation, together with an increasing risk of human-induced mortality."
+				
+			},
+			"post": {
+				"image": "./pictures/leopardendangered1.jpg",
+				"imageAlt": "aaa",
+				"excerpt": "Leopards are killed by people either accidentally in wire snares set for other species, or as retaliation after livestock depredation (usually through poisoning the livestock carcass). They are also occasionally shot. Since 2010, over 90 leopards are known to have been killed by people in Sri Lanka.",
+				"moreLink": "https://en.wikipedia.org/wiki/Sri_Lankan_leopard#:~:text=The%20survival%20of%20the%20Sri,risk%20of%20human%2Dinduced%20mortality.",
+				"moreText": "Click here for more info"
+			}
+		},
+		{
+			"meta": {
+				
+				"description": "Limiting the hunting and poaching of prey species and managing unsustainable logging practices could be the key to protecting the leopard long term."
+				
+			},
+			"post": {
+				"image": "./pictures/leopardendangered2.jpg",
+				"imageAlt": "aaa",
+				"excerpt": "Leopards are top predators in their landscape, so they're crucial role for keeping the right balance of species in their area. That also affects the health of the forests and wider environment, which provides local wildlife and people with food, water and other resources. ",
+				"moreLink": "https://www.wwf.org.uk/learn/wildlife/amur-leopards#:~:text=Amur%20leopards%20are%20top%20predators,food%2C%20water%20and%20other%20resources.",
+				"moreText": "Click here for more info"
+			}
+		}
+	]
+}

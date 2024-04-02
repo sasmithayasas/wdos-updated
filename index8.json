@@ -1,0 +1,14 @@
+{
+	"heading": "Wilpattu",
+	"description": "  Located on the northwest coast of Sri Lanka, Wilpattu National Park's unique feature is the existence of 'Willus' – natural, sand-rimmed water basins or depressions that fill with rainwater.",
+	"findOutMoreLink": "https://en.wikipedia.org/wiki/Wilpattu_National_Park",
+	"findOutMoreButtonText": "Find out more",
+	"cards": [
+		{ "class": "card card1", "caption": "Painted Stork" },
+		{ "class": "card card2", "caption": "Red Jungle Fowl" },
+		{ "class": "card card3", "caption": "Monitor Lizard" },
+		{ "class": "card card4", "caption": "Sri Lankan Axis Deer" },
+		{ "class": "card card5", "caption": "Tufted Gray Langur" },
+		{ "class": "card card6", "caption": "Rock Python" }
+	]
+}
