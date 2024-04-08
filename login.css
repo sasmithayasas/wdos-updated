@@ -112,14 +112,14 @@ section a{
 
 .logo{
 
-    width: 100%;
-    max-width: 450px;
+    width: 90%;
+    max-width: 400px;
     height: auto;
 }
 
 @media only screen and (max-width: 600px){
     .logo{
-        max-width: 80%;
+        max-width: 65%;
     }
 }
 
